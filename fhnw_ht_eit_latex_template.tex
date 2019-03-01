@@ -25,12 +25,13 @@
 \renewcommand\arraystretch{2}
 \begin{center}
 \begin{tabular}{>{\bf}p{4cm} l}
-Hochschule                 &    Hochschule für Technik - FHNW\\
-Studiengang                &    Elektro- und Informationstechnik\\
-Autor/-en  		           & 	Mischa Knupfer, Andres Minder\\
-Betreuer                   &    Prof. Dr. Taoufik Nouri\\
-Auftraggeber               &    Prof. Dr. Taoufik Nouri\\
-Version                    &    1.1 %Normally not used!
+Hochschule		&	Hochschule für Technik - FHNW\\
+Studiengang		&	Elektro- und Informationstechnik\\
+Auftraggeber	&	Prof. Dr. Taoufik Nouri\\
+Experte			&	Patrick Strittmatter\\
+Betreuer		&	Prof. Dr. Taoufik Nouri\\
+Autor/-en		&	Mischa Knupfer, Andres Minder\\
+Version			&	1.0 %Normally not used!
 \end{tabular}
 \end{center}
 }
@@ -40,6 +41,8 @@ Version                    &    1.1 %Normally not used!
 %%---ABSTRACT----------------------------------------------------------------------------
 \selectlanguage{english}				%ngerman or english
 \thispagestyle{empty}
+\include{sections/einleitung}
+\include{sections/technical/subsections/Auftragsbeschreibung}
 %\include{sections/abstract}
 
 %%---TABLE OF CONTENTS-------------------------------------------------------------------
@@ -67,5 +70,6 @@ Version                    &    1.1 %Normally not used!
 \clearpage
 }
 {%Do this only if mode=final
+\listoftodos[\section{Todo-Notes}]
 }
 \end{document}

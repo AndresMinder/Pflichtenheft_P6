@@ -1,4 +1,5 @@
-\section{Grundkonzept}
+\subsection{Grundkonzept}
+\todo[inline]{Das gesamte Grundkonzept muss ZWINGEND überarbeitet werden.}
 \label{chap:grundkonzept}
 \begin{figure}[h]
 	\centering
@@ -13,12 +14,12 @@ Als Zentralrecheneinheit wird eine \textit{Micro-Controller-Unit (MCU)} verwende
 Das gesamte Grundkonzept ist, wie in der Abbildung \ref{fig:grundkonzept} grafisch dargestellt, modular aufgebaut. Auf alle einzelnen Module wird folgend spezifischer eingegangen und die Konzeptvariationen vorgestellt. Dafür sind zusätzlich noch Vor- \& Nachteile für die Varianten aufgelistet.\\
 \newpage
 
-\subsection{Micro Controller Unit (MCU)}
+\subsubsection{Micro Controller Unit (MCU)}
 \paragraph{Variante 1:}
 \begin{wrapfigure}{r}{0.5\textwidth}
   \vspace{-10pt}
   \begin{center}
-    \includegraphics[width=0.38\textwidth]{graphics/arduino_mega.png}
+    \missingfigure[figwidth=0.38\textwidth]{das Bild wird eh ersetzt oder sogar komplett gelöscht}
   \end{center}
   \vspace{-10pt}
   \caption{Arduino Mega \cite{Elektronik}}
@@ -29,7 +30,7 @@ Für die \textit{MCU} wird ein Microcontroller mit bereits vorhandener Peripheri
 
 \paragraph{Variante 2:}
 Es wird ein separates Printed Circuit Board (PCB) für die \textit{MCU} designed.\\
-
+\vspace*{2cm}
 \begin{table}[h]
   \centering
   \label{tab:mcu}
@@ -53,7 +54,7 @@ Es wird ein separates Printed Circuit Board (PCB) für die \textit{MCU} designed
 \end{table}%
 
 \newpage
-\subsection{Sensoren}
+\subsubsection{Sensoren}
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.8]{graphics/Sensoren.PNG}
@@ -119,7 +120,7 @@ Eine Mischung aus den Varianten 1 \& 2.\\
 Tabelle \ref{tab:sensoren} zeigt Vor- und Nachteile für die erwähnten Varianten.\\
 %\input{sections/technical/subsections/einzelne_Sensoren}
 
-\subsection{Kommunikationsmodul}
+\subsubsection{Kommunikationsmodul}
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.7]{graphics/Kommunikationsmodul.PNG}
@@ -137,7 +138,7 @@ Die Einbindung der Wetterstation wird über diesen Block implementiert.\\
 \subparagraph{GPS:}
 Dieser Block sorgt für die Standortbestimmung.\\
 
-\subsection{Datenspeicherung}
+\subsubsection{Datenspeicherung}
 \paragraph{Variante 1:}
 
 Die Datenspeicherung erfolgt auf einer $\mu$SD-Karte. Diese kann in ein Breakoutboard eingeschoben werden.\\
@@ -171,7 +172,7 @@ Tabelle \ref{tab:Datenspeicherung} zeigt Vor- und Nachteile für die erwähnten 
 \subsection{RTC}
 Es wird eine RTC implementiert, welche aktuelle Zeitstempel für erhobene Datensätze ermittelt.\\
 
-\subsection{Energieversorgung}
+\subsubsection{Energieversorgung}
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.6]{graphics/Energieversorgung.PNG}
