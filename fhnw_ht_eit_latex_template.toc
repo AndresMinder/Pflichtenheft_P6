@@ -2,4 +2,6 @@
 \babel@toc {ngerman}{}
 \babel@toc {english}{}
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {A}Lastenheft}{1}{appendix.A}
+\contentsline {section}{Organisatorischer Teil}{1}{section*.3}
+\contentsline {section}{Technischer Teil}{3}{section*.4}
+\contentsline {section}{\numberline {A}Lastenheft}{4}{appendix.A}
