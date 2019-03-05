@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.24)  5 MAR 2019 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.24)  5 MAR 2019 20:48
 entering extended mode
 **./fhnw_ht_eit_latex_template.tex
 (fhnw_ht_eit_latex_template.tex
@@ -1717,11 +1717,7 @@ LaTeX Warning: Label `tab:mcu' multiply defined.
 
 LaTeX Warning: Label `tab:zeitplan' multiply defined.
 
-) (sections/appendix.aux
-
-LaTeX Warning: Label `tab:zeitplan' multiply defined.
-
-))
+) (sections/appendix.aux))
 \openout1 = `fhnw_ht_eit_latex_template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -1740,12 +1736,14 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 10.
- ("C:\Users\Andres\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+
+("C:\Users\Andres\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 10.
- ("C:\Users\Andres\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+
+("C:\Users\Andres\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -1891,7 +1889,7 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 10.
 ("C:\Users\Andres\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<fhnwlogo.pdf, id=78, 183.81773pt x 28.4543pt>
+<fhnwlogo.pdf, id=86, 183.81773pt x 28.4543pt>
 File: fhnwlogo.pdf Graphic file (type pdf)
 <use fhnwlogo.pdf>
 Package pdftex.def Info: fhnwlogo.pdf  used on input line 16.
@@ -1943,7 +1941,7 @@ l.8 \newpage
 
 
 ] (sections/technical/subsections/Gesamtkonzept.tex
-<graphics/Grundkonzept.PNG, id=146, 392.96812pt x 303.1325pt>
+<graphics/Grundkonzept.PNG, id=156, 392.96812pt x 303.1325pt>
 File: graphics/Grundkonzept.PNG Graphic file (type png)
 <use graphics/Grundkonzept.PNG>
 Package pdftex.def Info: graphics/Grundkonzept.PNG  used on input line 6.
@@ -1985,7 +1983,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
                    \relax 
 l.56 \newpage
               [3]
-<graphics/Sensoren.PNG, id=164, 185.19188pt x 299.1175pt>
+<graphics/Sensoren.PNG, id=174, 185.19188pt x 299.1175pt>
 File: graphics/Sensoren.PNG Graphic file (type png)
 <use graphics/Sensoren.PNG>
 Package pdftex.def Info: graphics/Sensoren.PNG  used on input line 60.
@@ -1995,7 +1993,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<graphics/Sensoraufbau.PNG, id=167, 383.93437pt x 110.4125pt>
+<graphics/Sensoraufbau.PNG, id=177, 383.93437pt x 110.4125pt>
 File: graphics/Sensoraufbau.PNG Graphic file (type png)
 <use graphics/Sensoraufbau.PNG>
 Package pdftex.def Info: graphics/Sensoraufbau.PNG  used on input line 68.
@@ -2057,7 +2055,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-<graphics/Kommunikationsmodul.PNG, id=190, 280.04625pt x 232.87pt>
+<graphics/Kommunikationsmodul.PNG, id=200, 280.04625pt x 232.87pt>
 File: graphics/Kommunikationsmodul.PNG Graphic file (type png)
 <use graphics/Kommunikationsmodul.PNG>
 Package pdftex.def Info: graphics/Kommunikationsmodul.PNG  used on input line 1
@@ -2113,7 +2111,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
-<graphics/Energieversorgung.PNG, id=202, 376.40625pt x 209.28188pt>
+<graphics/Energieversorgung.PNG, id=212, 376.40625pt x 209.28188pt>
 File: graphics/Energieversorgung.PNG Graphic file (type png)
 <use graphics/Energieversorgung.PNG>
 Package pdftex.def Info: graphics/Energieversorgung.PNG  used on input line 178
@@ -2145,28 +2143,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-) (sections/organizational/subsections/Risikoanalyse.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+) [11
+
+] (sections/organizational/subsections/Risikoanalyse.tex
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<graphics/HeatMap.PNG, id=234, 280.04625pt x 282.05376pt>
+<graphics/HeatMap.PNG, id=253, 280.04625pt x 282.05376pt>
 File: graphics/HeatMap.PNG Graphic file (type png)
 <use graphics/HeatMap.PNG>
 Package pdftex.def Info: graphics/HeatMap.PNG  used on input line 34.
 (pdftex.def)             Requested size: 182.0279pt x 183.33276pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (sections/organizational/subsections/Budget.tex [11
-
-] [12 <./graphics/HeatMap.PNG>] [13
+) (sections/organizational/subsections/Budget.tex [12 <./graphics/HeatMap.PNG>]
+[13
 
 ]) (sections/organizational/subsections/Zeitplan.tex
 
 pdfTeX warning: pdflatex (file ./graphics/prov_zeitplanung.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<graphics/prov_zeitplanung.pdf, id=257, 1194.98447pt x 845.07724pt>
+<graphics/prov_zeitplanung.pdf, id=270, 1194.98447pt x 845.07724pt>
 File: graphics/prov_zeitplanung.pdf Graphic file (type pdf)
 <use graphics/prov_zeitplanung.pdf>
 Package pdftex.def Info: graphics/prov_zeitplanung.pdf  used on input line 1.
@@ -2187,7 +2193,7 @@ pdfTeX warning: pdflatex (file ./graphics/prov_zeitplanung.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex (file ./graphics/prov_zeitplanung.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<graphics/prov_zeitplanung.pdf, id=260, page=1, 1194.98447pt x 845.07724pt>
+<graphics/prov_zeitplanung.pdf, id=273, page=1, 1194.98447pt x 845.07724pt>
 File: graphics/prov_zeitplanung.pdf Graphic file (type pdf)
 <use graphics/prov_zeitplanung.pdf, page 1>
 Package pdftex.def Info: graphics/prov_zeitplanung.pdf , page1 used on input li
@@ -2236,7 +2242,7 @@ pdfTeX warning: pdflatex (file ./graphics/prov_zeitplanung.pdf): PDF inclusion:
 
 pdfTeX warning: pdflatex (file ./graphics/prov_zeitplanung.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<graphics/prov_zeitplanung.pdf, id=284, page=2, 1194.98447pt x 845.07724pt>
+<graphics/prov_zeitplanung.pdf, id=297, page=2, 1194.98447pt x 845.07724pt>
 File: graphics/prov_zeitplanung.pdf Graphic file (type pdf)
 <use graphics/prov_zeitplanung.pdf, page 2>
 Package pdftex.def Info: graphics/prov_zeitplanung.pdf , page2 used on input li
@@ -2263,7 +2269,12 @@ Package pdftex.def Info: graphics/prov_zeitplanung.pdf , page2 used on input li
 ne 5.
 (pdftex.def)             Requested size: 1015.74161pt x 718.31905pt.
 [15 <./graphics/prov_zeitplanung.pdf>])
-(sections/organizational/subsections/einverstaendniserklaerung.tex)) [16]
+(sections/organizational/subsections/einverstaendniserklaerung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+)) [16]
 No file fhnw_ht_eit_latex_template.bbl.
 \openout2 = `sections/appendix.aux'.
 
@@ -2271,7 +2282,7 @@ No file fhnw_ht_eit_latex_template.bbl.
 
 pdfTeX warning: pdflatex (file ./appendix/Auftragsbeschreibung.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix/Auftragsbeschreibung.pdf, id=295, 597.55246pt x 845.07724pt>
+<appendix/Auftragsbeschreibung.pdf, id=309, 597.55246pt x 845.07724pt>
 File: appendix/Auftragsbeschreibung.pdf Graphic file (type pdf)
 <use appendix/Auftragsbeschreibung.pdf>
 Package pdftex.def Info: appendix/Auftragsbeschreibung.pdf  used on input line 
@@ -2294,7 +2305,7 @@ ion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./appendix/Auftragsbeschreibung.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<appendix/Auftragsbeschreibung.pdf, id=298, page=1, 597.55246pt x 845.07724pt>
+<appendix/Auftragsbeschreibung.pdf, id=312, page=1, 597.55246pt x 845.07724pt>
 File: appendix/Auftragsbeschreibung.pdf Graphic file (type pdf)
 <use appendix/Auftragsbeschreibung.pdf, page 1>
 Package pdftex.def Info: appendix/Auftragsbeschreibung.pdf , page1 used on inpu
@@ -2323,12 +2334,66 @@ t line 2.
 [17
 
 
- <./appendix/Auftragsbeschreibung.pdf>]) (fhnw_ht_eit_latex_template.tdo)
+ <./appendix/Auftragsbeschreibung.pdf>]
+
+pdfTeX warning: pdflatex (file ./appendix/Aufgabenstellung.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<appendix/Aufgabenstellung.pdf, id=343, 597.55246pt x 845.19763pt>
+File: appendix/Aufgabenstellung.pdf Graphic file (type pdf)
+<use appendix/Aufgabenstellung.pdf>
+Package pdftex.def Info: appendix/Aufgabenstellung.pdf  used on input line 6.
+(pdftex.def)             Requested size: 597.551pt x 845.19557pt.
+
+
+pdfTeX warning: pdflatex (file ./appendix/Aufgabenstellung.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+File: appendix/Aufgabenstellung.pdf Graphic file (type pdf)
+<use appendix/Aufgabenstellung.pdf>
+Package pdftex.def Info: appendix/Aufgabenstellung.pdf  used on input line 6.
+(pdftex.def)             Requested size: 597.551pt x 845.19557pt.
+
+
+pdfTeX warning: pdflatex (file ./appendix/Aufgabenstellung.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./appendix/Aufgabenstellung.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<appendix/Aufgabenstellung.pdf, id=346, page=1, 597.55246pt x 845.19763pt>
+File: appendix/Aufgabenstellung.pdf Graphic file (type pdf)
+<use appendix/Aufgabenstellung.pdf, page 1>
+Package pdftex.def Info: appendix/Aufgabenstellung.pdf , page1 used on input li
+ne 6.
+(pdftex.def)             Requested size: 597.551pt x 845.19557pt.
+File: appendix/Aufgabenstellung.pdf Graphic file (type pdf)
+<use appendix/Aufgabenstellung.pdf, page 1>
+Package pdftex.def Info: appendix/Aufgabenstellung.pdf , page1 used on input li
+ne 6.
+(pdftex.def)             Requested size: 507.92198pt x 718.42139pt.
+File: appendix/Aufgabenstellung.pdf Graphic file (type pdf)
+<use appendix/Aufgabenstellung.pdf, page 1>
+Package pdftex.def Info: appendix/Aufgabenstellung.pdf , page1 used on input li
+ne 6.
+(pdftex.def)             Requested size: 507.92198pt x 718.42139pt.
+File: appendix/Aufgabenstellung.pdf Graphic file (type pdf)
+<use appendix/Aufgabenstellung.pdf, page 1>
+Package pdftex.def Info: appendix/Aufgabenstellung.pdf , page1 used on input li
+ne 6.
+(pdftex.def)             Requested size: 507.92198pt x 718.42139pt.
+File: appendix/Aufgabenstellung.pdf Graphic file (type pdf)
+<use appendix/Aufgabenstellung.pdf, page 1>
+Package pdftex.def Info: appendix/Aufgabenstellung.pdf , page1 used on input li
+ne 6.
+(pdftex.def)             Requested size: 507.92198pt x 718.42139pt.
+[18 <./appendix/Aufgabenstellung.pdf>] [19
+
+]) (fhnw_ht_eit_latex_template.tdo)
 \tf@tdo=\write6
 \openout6 = `fhnw_ht_eit_latex_template.tdo'.
 
 
-[18
+[20
+
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
@@ -2341,7 +2406,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `fhnw_ht_eit_latex_template.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: 2BDB907625791FF0CCE5BDAD3163ED80;1237.
+(rerunfilecheck)             Checksum: B4AC77EE712964D336EFAF902075B5CF;1374.
 
 
 LaTeX Warning: There were undefined references.
@@ -2352,15 +2417,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 43381 strings out of 492972
- 920013 string characters out of 3126178
- 1252999 words of memory out of 3000000
- 46438 multiletter control sequences out of 15000+200000
+ 43407 strings out of 492972
+ 920634 string characters out of 3126178
+ 1246999 words of memory out of 3000000
+ 46454 multiletter control sequences out of 15000+200000
  647202 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,19n,87p,1093b,993s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
@@ -2381,9 +2449,9 @@ s/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Users/Andres/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/Andres/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Users/Andres/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on fhnw_ht_eit_latex_template.pdf (22 pages, 1283376 bytes).
+Output written on fhnw_ht_eit_latex_template.pdf (24 pages, 1352248 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
