@@ -5,26 +5,27 @@ Die Tabelle \ref{tab:ZieleP6} zeigt die diskreten Ziele des Projekts 6, rsp. jen
 \begin{table}[htbp]
   \centering
   \renewcommand{\arraystretch}{1.4}
-  \caption{Ziele P6}
+  \caption{Ziele}
     \begin{tabular}{l|l|l|r|r}
-          & \textbf{Ziel} & \multicolumn{1}{l|}{\textbf{Spezifikation}} & \multicolumn{1}{l|}{\textbf{Genauigkeiten}} & \multicolumn{1}{l}{\textbf{Einheiten}} \\
+          & \textbf{Ziel} & \multicolumn{1}{l|}{\textbf{Spezifikation}} & \multicolumn{1}{l|}{\textbf{Genauigkeit}} & \multicolumn{1}{l}{\textbf{Einheit}} \\
     \toprule
-    \multicolumn{1}{l}{\textbf{Mussziele}} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} &  \\
+    \multicolumn{1}{l}{\textbf{Mussziele}} & \multicolumn{4}{r}{} \\
     \toprule
-    \multirow{3}{*}{Speisung} & Akkukapazität &       &       &  \\
+    \multirow{4}{*}{Speisung} & Akkukapazität (Li-Ionen Akku) & \multicolumn{1}{r|}{4'000\,$\leq$\,6'000} &  & mAh \\
+\cline{2-5}           & Akkulaufzeit & \multicolumn{1}{r|}{$\geq$\,100} &   & h \\
 \cline{2-5}          & Ladeschaltung Akku &       &       &  \\
 \cline{2-5}           & Ladeschaltung Photovoltaik &       &       &  \\
     \hline
-    \multirow{2}{*}{Kommunikationsmodule} & GPS-Modul   &       &       &  \\
+    \multirow{2}{*}{Kommunikationsmodule} & GPS-Modul   &  \multicolumn{1}{r|}{<\,5}  &       & Hz \\
 \cline{2-5}          & GSM-Modul  &       &       &  \\
 \hline
-Sensoren & Sonnenstunden (Bestrahlungsstärke) &       &       &  \\
+Sensoren & Sonnenstunden (Lichtstromdichte) & \multicolumn{1}{r|}{0.1 - 90'000} & & lx \\
     \bottomrule
-    \multicolumn{1}{l}{\textbf{Nichtziele}} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} &  \\
+    \multicolumn{1}{l}{\textbf{Nichtziele}} & \multicolumn{4}{r}{} \\
     \toprule
     & & & & \\
     \bottomrule
-    \multicolumn{1}{l}{\textbf{Wunschziele}} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} &  \\
+    \multicolumn{1}{l}{\textbf{Wunschziele}} & \multicolumn{4}{r}{} \\
     \toprule
     Kommunikationsmodule & Einbindung in IoT &       Bluetooth || WLAN &       &  \\
     \hline
@@ -35,5 +36,5 @@ Sensoren & Sonnenstunden (Bestrahlungsstärke) &       &       &  \\
     \end{tabular}%
   \label{tab:ZieleP6}%
 \end{table}%
-\todo[inline]{Es müssen noch Einträge in die Tabelle genommen werden. Sowie die Spezifikationen und weiteren Teile inkludieren.}
+\todo[inline]{Es müssen noch Einträge in die Tabelle genommen werden. Sowie die Spezifikationen und weiteren Teile inkludieren. Ladeschaltung Akku Unterladungs- \& Überladungsschutz spezifizieren. Ladeschaltung Photovoltaik Ladestrom definieren. }
 \end{landscape}
