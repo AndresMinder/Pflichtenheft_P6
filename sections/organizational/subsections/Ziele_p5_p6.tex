@@ -1,51 +1,42 @@
 \begin{landscape}
 \subsection{Ziele}
 Die Tabelle \ref{tab:ZieleP6} zeigt die diskreten Ziele dieses Projektes. Darin enthalten sind die jeweiligen zu erreichenden Muss-, Nicht- und Wunschziele mit ihren quantifizierten Spezifikationen.\\
-
-\todo[inline]{Sensoren nicht ändern / Print}
-
 \begin{table}[htbp]
   \centering
-  \renewcommand{\arraystretch}{1.4}
+  \renewcommand{\arraystretch}{1.1} %Angepasst da sonst neue Seite
   \caption{Ziele}
     \begin{tabular}{l|l|l|r|r}
           & \textbf{Ziel} & \multicolumn{1}{l|}{\textbf{Spezifikation}} & \multicolumn{1}{l|}{\textbf{Genauigkeit}} & \multicolumn{1}{l}{\textbf{Einheit}} \\
     \toprule
     \multicolumn{1}{l}{\textbf{Mussziele}} & \multicolumn{4}{r}{} \\
     \toprule
-    \multirow{4}{*}{Speisung} & Akkukapazität (Li-Ionen Akku) & \multicolumn{1}{r|}{4'000\,$\leq$\,6'000} &  & mAh \\
-\cline{2-5}           & Akkulaufzeit & \multicolumn{1}{r|}{$\geq$\,100} &   & h \\
-\cline{2-5}          & Ladeschaltung Akku &       &       &  \\
-\cline{2-5}           & Ladeschaltung Photovoltaik &       &       &  \\
+  \multirow{3}{*}{Speisung} & Akkulaufzeit & \multicolumn{1}{r|}{$\geq$\,100} &   & h \\
+    \cline{2-5}  & Mittels DC-Ladekabel ladbar &      5.5 / 2.1mm DC-Stecker &       &  \\
+	\cline{2-5}           & Photovoltaik &    \multicolumn{1}{r|}{1}   &       & Akkuladungen/Tag \\
     \hline
-    \multirow{2}{*}{Kommunikationsmodule} & GPS-Modul   &  \multicolumn{1}{r|}{<\,5}  &       & Hz \\
-\cline{2-5}          & GSM-Modul  &       &       &  \\
+  \multirow{2}{*}{Kommunikationsmodule} & GPS-Modul Standortupdate   &  \multicolumn{1}{r|}{<\,5}  &       & Minuten \\
+	\cline{2-5}          & GSM-Modul  & SMS: Senden und Empfangen &       &  \\
 \hline
 Sensoren & Sonnenstunden (Lichtstromdichte) & \multicolumn{1}{r|}{0.1 - 90'000} & & lx \\
     \bottomrule
     \multicolumn{1}{l}{\textbf{Nichtziele}} & \multicolumn{4}{r}{} \\
     \toprule
-    & & & & \\
+     Sensoren aus Projekt 5& Keine Neukonzeption &  &  &  \\
+     \hline
+     Wartungsfreiheit & Wartungsfenster & \multicolumn{1}{r|}{>7} &  & Tage \\
     \bottomrule
     \multicolumn{1}{l}{\textbf{Wunschziele}} & \multicolumn{4}{r}{} \\
     \toprule
     Kommunikationsmodule & Einbindung in IoT &       Bluetooth || WLAN &       &  \\
     \hline
-    \multirow{3}{*}{Speisung} & Akku leicht austauschbar &       &       &  \\
+    \multirow{2}{*}{Speisung} & Akku leicht austauschbar &       &       &  \\
 \cline{2-5}  & Mittels USB ladbar & USB 2.0 (Mini-B || Micro-B) &       &  \\
-\cline{2-5}  & Mittels DC-Ladekabel ladbar &      5.5 / 2.1mm DC-Stecker &       &  \\
+
     \bottomrule
     \end{tabular}%
   \label{tab:ZieleP6}%
 \end{table}%
-\todo[inline]{Es müssen noch Einträge in die Tabelle genommen werden. Sowie die Spezifikationen und weiteren Teile inkludieren. Ladeschaltung Akku Unterladungs- \& Überladungsschutz spezifizieren. Ladeschaltung Photovoltaik Ladestrom definieren. }
 
-\todo[inline]{Anmerkungen Ziele: Akkukapazität: kleine Berechnung wieviel kapazität notwendig damit Wetterstation eine definierte zeit lang hält... evtl obere Grenze weglassen, da hier eine mindestlaufzeit kritisch ist - keine maximallaufzeit.
-Akkulaufzeit und Akkukapazität kommen schlussendlich aufs gleiche raus... entweder oder - vielleicht eher die laufzeit bestimmen und kapazität rausnehmen damit dies später etwas detailierter angeschaut werden kann...
-Ladeschaltung Akku: charge cut-off voltage: 4.2, discharge cut-off voltage: 3.0
-Photovoltaik-Ladeschaltung: Strompeak definieren damit Batterie geladen werden kann (Standard Charge: $0.5\cdot C_{5}A$, Max const charg current: 4400mA) 
-GPS-Modul: Vellicht d Spezifikation vo 5 Hz entschärfe. Mir chönnes im schlimmschte Fall immerno Intervallmässig abrüefe... Vellicht grad en Intervall definiere? "Standortupdates all 10 Minute" odr so...
-GSM-Modul: Do vellicht d SMS-Zahl definiere? 1 SMS het glaub was an die 140 Zeiche odr so... weisch drmit d Köschte nit explodiere ...
-Sonnenstunden: kei plan, isch glaub scho easy
-Nichtziele... weiss grad nit was...vellicht totali Wartigsfreiheit}
+Tabelle \ref{tab:ZieleP6} zeigt die Muss-, Nicht- und Wunschziele des Projekts auf. Die Akkulaufzeit und das Laden mittels DC-Ladekabel sind spezifiziert. Ausserdem wird ein volles Aufladen des Akkus innerhalb eines Tages via Photovoltaik als Ziel gesetzt. Dabei wird von der maximal möglichen Leistung der Photovoltaik ausgegangen, bei einer optimalen Sonneneinstrahlung von 10 Stunden. Das Update des Standorts wird spätestens alle 5 Minuten erfolgen und das Empfangen und Senden von SMS wird ebenfalls möglich sein. Nicht Ziel des Projekts ist es, die in einem vorhergehenden Projekt entworfene Sensoren neu zu konzipieren, sowie die mobile Wetterstation komplett Wartungsfrei zu machen. Eine wöchentliche Wartung ($\leq$ 7 Tage) wird als vertretbar bis notwendig erachtet. Als Wunschziel folgt die Einbindung der mobilen Wetterstation in das \textit{IoT}, ein leicht austauschbarer Akku, sowie die Möglichkeit, den Akku in der mobilen Wetterstation via USB-Kabel zu laden.
+
 \end{landscape}
