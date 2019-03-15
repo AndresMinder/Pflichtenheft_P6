@@ -1,28 +1,18 @@
 \subsection{Verifikationskonzept}
-\todo[inline]{Hier wird geschrieben, wie die einzelnen Teile des Projekts verifiziert werden, sowie am Schluss geplant ist, das gesamte Projekt zu verifizieren.}
+\todo[inline]{Lesen und korrigieren}
+Jedes einzelne Arbeitspaket wird nach Zeitplan während seiner Bearbeitungszeit als eigenständiges Subsystem am Ende in sich verifiziert. Dadurch kann später bei einer Fehlfunktion der Wetterstation besser eruiert werden, wo das Problem liegt. Des Weiteren wird also zum Schluss des Projektes während der \textit{Validierungsphase} die Integration aller Subsysteme, wie auch die korrekte Funktionalität dieser getestet. Dafür wird die Wetterstation in Betrieb genommen und auf verschiedene Szenarien mittels Abarbeitung einer Checkliste\footnote{diese Checkliste wird im Fachbericht dann abgelegt} getestet. Zusätzlich muss auch die Korrektheit der gespeicherten Daten über den zu messenden Bereich überprüft werden, was im Kapitel \ref{subsubsec:validierungdersensorik} genauer erläutert wird.\\
 \subsubsection{Validierung der Sensorik}
-In einem vorhergehenden Projekt wurde die Sensorik , bis auf den Sensor für die Sonnenstundenzählung, implementiert, jedoch nicht validiert. Dies soll in diesem Projekt nachgeholt werden.\\
-\paragraph{Validierung des BME280}
-Mit dem BME280 wird die Lufttemperarut, die Luftfeuchtigkeit und der Luftdruck gemessen.
-\todo[inline]{Muss ergänzt werden.}
-\paragraph{Validierung des Anemometers}
-Mit dem Anemometer wird die Windgeschwindigkeit gemessen und die Stärke nach Beaufort-Skala eingestuft.
-\todo[inline]{Muss ergänzt werden.}
-\paragraph{Validierung der Windfahne}
-Die Windfahne ermittelt die Windrichtung.
-\todo[inline]{Muss ergänzt werden.}
-\paragraph{Validierung des Ombrometers}
-Das Ombrometer misst die Niederschlagsmenge nach dem Kipplöffelprinzip.
-\todo[inline]{Muss ergänzt werden.}
-\paragraph{Validierung der Sonnenstundenzählung}
-\todo[inline]{Muss ergänzt werden.}
+\label{subsubsec:validierungdersensorik}
+In einem vorhergehenden Projekt wurde die Sensorik , bis auf den Sensor für die Beleuchtungsstärke, implementiert, jedoch nicht vollständig validiert. Dies wird in diesem Projekt nachgeholt. Für die Validierung werden dabei Referenzmessungen mit anderen Geräten über einen bestimmten Messbereich bei jeder physikalischen Messgröße gemacht und ausgewertet. Alle Daten der Messreihen werden in Statistiken aufgeführt und auch ihre Fehlerfunktionen geplottet. Dies bietet direkt eine Übersicht über die Genauigkeit der Messung in verschiedenen Messbereichen.\\
+
 \subsubsection{Validierung der Kommunikationsmodule}
-\todo[inline]{Muss ergänzt werden.}
+Bei den Kommunikationsmodulen müssen die unterschiedlichen Interfaces überprüft werden. Hierbei ist es wichtig, dass die Daten mit jedem Submodul korrekt übermittelt werden. Für das GPS wird die Genauigkeit der Standortbestimmung bestimmt, indem die GPS-Koordinaten abgeglichen werden, in welchem Bereich sie zutreffen. Das USB-Interface ist lediglich eine serielle Schnittstelle (USB-to-UART), wobei nur die Ausgabe auf dem Terminal am Computer beobachtet werden muss. Beim Mobilfunknetz, rsp. GSM-Modul müssend die richtigen Daten, je nach Wunsch des Users, ausgegeben werden. Dafür werden die unterschiedlichen Commands für die Datenabfrage getestet.\\
 \subsubsection{Validierung des RTC}
-\todo[inline]{Muss ergänzt werden oder rausgenommen.}
+Das RTC muss einen korrekten Zeitstempel generieren. Dafür werden die Zeitwerte mit der Atomuhr verglichen.\\
 \subsubsection{Validierung der Datenspeicherung}
-\todo[inline]{Muss ergänzt werden oder rausgenommen.}
+Die abgespeicherten Daten auf der $\mu$SD-Karte sind der Kern des Projektes. Um das korrekte Speichern zu testen, werden einige Teststrings (lange \& kurze) gespeichert und dokumentiert, welche Kriterien für ein korrektes Speichern einzuhalten sind\footnote{Im Allgemeinen geht es nur darum, dass MCU seitig gewartet wird, bis alle Daten gespeichert sind}.\\
 \subsubsection{Validierung der Energieversorgung}
+\label{subsubsec:validierungenergieversorgung}
 Damit die Energieversorgung als funktionsfähig eingestuft werden kann, muss das Verhalten der Ladeschaltung mit dem Überladungs- und Unterladungsschutz getestet werden.\\
 In einem ersten Schritt soll die Ladefunktion mit Überladungsschutz bei der Speisung mittels Stromnetz getestet werden. Dazu wird ein Versuchsaufbau im Labor aufgebaut, wobei das Laden des Akkumulators beobachtet wird.\\
 In einem zweiten Schritt soll der Unterladungsschutz in einem weiteren Laborversuch getestet werden. Dazu wird eine Last an den Akkumulator gelegt und die Entladung beobachtet.\\
